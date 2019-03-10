@@ -1,5 +1,8 @@
 <template>
   <div id="home" class="main">
+        <div class="preloader">
+        <div class="sk-spinner sk-spinner-pulse"></div>
+   </div>
       <!-- Home Section -->
       <div class="overlay"></div>
       <div class="container">
