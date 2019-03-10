@@ -3,6 +3,7 @@ import App from './App.vue'
 import Home from './Home.vue'
 import Navigation from './Navigation.vue'
 import About from './About.vue'
+import Footer from './Footer.vue'
 
 
 new Vue({
@@ -21,4 +22,9 @@ new Vue({
 new Vue({
   el: '#about',
   render: h => h(About)
+})
+
+new Vue({
+  el: '#footer',
+  render: h => h(Footer)
 })
