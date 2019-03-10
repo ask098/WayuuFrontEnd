@@ -7,7 +7,6 @@
       <div class="overlay"></div>
       <div class="container">
           <div class="row">
-              <h1>{{ msg }}</h1>
               <div class="wow fadeInUp col-md-6 col-sm-5 col-xs-10 col-xs-offset-1 col-sm-offset-0" data-wow-delay="0.2s">
                    <img src="./images/home-img.png" class="img-responsive" alt="Home">
               </div>
@@ -28,7 +27,6 @@ export default {
   name: 'home',
   data () {
     return {
-        msg: 'hola',
       deschome: 'wayuu app',
       contenido: 'La mejor forma de centralizar sus escuelas',
       donloadmsg: 'Download App'
