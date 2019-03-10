@@ -4,6 +4,7 @@ import Home from './Home.vue'
 import Navigation from './Navigation.vue'
 import About from './About.vue'
 import Footer from './Footer.vue'
+import Management from './Management.vue'
 
 
 new Vue({
@@ -27,4 +28,9 @@ new Vue({
 new Vue({
   el: '#footer',
   render: h => h(Footer)
+})
+
+new Vue({
+  el: '#management',
+  render: h => h(Management)
 })

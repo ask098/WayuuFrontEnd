@@ -15,6 +15,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#home" class="smoothScroll">Home</a></li>
 				<li><a href="#about" class="smoothScroll">About</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#modal1">Management</a></li>
 			</ul>
 		</div>
 
