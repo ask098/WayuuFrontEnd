@@ -30,10 +30,7 @@ export default {
      name: 'management',
      data () {
      return {
-          name: 'Your Name',
-          email: 'Email Address',
-          message: 'Message',
-          submit: 'Send Message',
+          atributos: [],
           entities: [
                { name: 'School', value: 'school', id: 1},
                { name: 'Teachers', value: 'teacher', id: 2},
