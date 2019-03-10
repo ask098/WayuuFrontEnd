@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import Home from './Home.vue'
+import Navigation from './Navigation.vue'
 
 
 new Vue({
@@ -10,4 +11,8 @@ new Vue({
 new Vue({
   el: '#home',
   render: h => h(Home)
+})
+new Vue({
+  el: '#navigation',
+  render: h => h(Navigation)
 })
